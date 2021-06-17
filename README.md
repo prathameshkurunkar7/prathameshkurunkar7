@@ -1,6 +1,6 @@
 ### Hey there 👋,
 
-I am a developer and computer science major student who is passionate about new upcoming technologies.I have experience working on projects based on Full Stack Web Development,Data Science, Machine Learning. I also like to apply my skills in DSA at competitive coding. Always open to learning new things that will improve my skillset.
+I am a developer and computer science major student who is passionate about new upcoming technologies.I have experience working on projects based on Full Stack Web Development,Data Science, Machine Learning, Augmented Reality. I also like to apply my skills in DSA at competitive coding. Always open to learning new things that will improve my skillset.
 
 <!--
 **prathameshkurunkar7/prathameshkurunkar7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
