@@ -22,16 +22,16 @@ I am a developer and computer science major student who is passionate about new 
 
 <br>
 
-###  📫 How to reach me:
-  
-[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](www.linkedin.com/in/prathamesh-kurunkar-ba399b192)
+
 
 <br>
 <!--
 **prathameshkurunkar7/prathameshkurunkar7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
+###  📫 How to reach me:
+  
+[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](www.linkedin.com/in/prathamesh-kurunkar-ba399b192)
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
