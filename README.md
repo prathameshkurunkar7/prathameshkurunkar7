@@ -22,7 +22,15 @@ I am a developer and computer science major student who is passionate about new 
 
 <br>
 
+<img align="center" src="https://github-readme-stats.vercel.app/api/<CARD_TYPE>/?username=<USERNAME>&theme=<THEME_NAME>" />
+## &#x1f4c8; GitHub Stats
 
+<a href="https://github.com/prathameshkurunkar7">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathameshkurunkar7&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+</a>
+<a href="https://github.com/prathameshkurunkar7">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=prathameshkurunkar7&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Prathamesh Kurunkar's Github Stats" />
+</a>
 
 <br>
 <!--
