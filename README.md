@@ -1,6 +1,6 @@
 <h1 align="center">Hey There 👋, I'm Prathamesh Kurunkar</h1>
 <h3 align="center">A budding full stack developer | Computer Engineer | Geeky Programmer</h3>
-I am a developer and computer science major student who is passionate about new upcoming technologies.I have experience working on projects based on Full Stack Web Development,Data Science, Machine Learning, Augmented Reality. I also like to apply my skills in DSA at competitive coding. Always open to learning new things that will improve my skillset.
+I am a developer and computer science major student who is passionate about new upcoming technologies.I have experience working on projects based on Full Stack Web Development,Data Science, Machine Learning, Augmented Reality. I also like to apply my skills in DSA at competitive coding. Always open to learning new things that will improve my skillset. Recently completed HacktoberFest 2021 successfully. Looking to contribute towards quality projects.
 <br>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prathameshkurunkar7&label=Profile%20views&color=0e75b6&style=flat" alt="prathameshkurunkar7" /> </p>
