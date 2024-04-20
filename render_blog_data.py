@@ -9,23 +9,14 @@ def render_blog_data():
 
     # Function to generate the markdown for a single blog card
     def generate_blog_card(blog):
-        return f"""
-            <a href="{blog['url']}" target="_blank">
-            <img src="{blog['meta_image']}" alt="{blog['title']}" width="300">
-            <h3>{blog['title']}</h3>
-            <p>{blog['meta_description']}</p>
-            </a>
-        """
+        return f'<a href="{blog["url"]}" target="_blank"><img src="{blog["meta_image"]}" alt="{blog["title"]}" width="300"><h3>{blog["title"]}</h3><p>{blog["meta_description"]}</p></a>'
+
 
     # Generate the markdown for all blog cards
-    rendered_cards = "\n".join([generate_blog_card(blog) for blog in [blog_data]])
+    rendered_cards = ''.join([generate_blog_card(blog) for blog in [blog_data]])
 
     # Wrap the rendered cards in a container
-    rendered_cards = f"""
-        <div align="center">
-        {rendered_cards}
-        </div>
-        """
+    rendered_cards = f'<div align="center">{rendered_cards}</div>'
 
     # Append the rendered cards to the README file
     with open('README.md', 'a') as f:
