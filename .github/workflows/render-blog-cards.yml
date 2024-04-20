@@ -28,6 +28,7 @@ jobs:
       env:
         BLOG_URL: 'https://thecommit.company/blog'
       run: |
+        python3 -c "
         import requests
         from bs4 import BeautifulSoup
         
@@ -72,9 +73,10 @@ jobs:
         import json
         with open('blog_data.json', 'w') as f:
             json.dump(blog_data, f)
-            
+        "        
     - name: Render blog cards
       run: |
+        python3 -c "
         import json
 
         # Load the blog data from the JSON file
@@ -104,8 +106,8 @@ jobs:
         # Append the rendered cards to the README file
         with open('README.md', 'a') as f:
             f.write(rendered_cards)
-    
-            
+        "
+                    
     - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions Bot'
