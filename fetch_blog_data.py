@@ -21,7 +21,8 @@ def fetch_blog_data(blog_url):
     blog_data = {
         'meta_description': meta_description,
         'meta_image': meta_image,
-        'title': title
+        'title': title,
+        'url': blog_url
     }
 
     return blog_data
