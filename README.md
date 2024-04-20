@@ -22,7 +22,3 @@
   
 
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Prathamesh Kurunkar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=prathameshkurunkar7&theme=tokyo-night&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
-
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
