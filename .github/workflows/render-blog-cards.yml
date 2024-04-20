@@ -19,7 +19,7 @@ jobs:
         python-version: '3.9'
         
     - name: Installing dependencies
-      run: |
+      run: >
         python -m pip install --upgrade pip
         pip install requests
         pip install beautifulsoup4
@@ -107,7 +107,7 @@ jobs:
         with open('README.md', 'a') as f:
             f.write(rendered_cards)
         "
-                    
+
     - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions Bot'
