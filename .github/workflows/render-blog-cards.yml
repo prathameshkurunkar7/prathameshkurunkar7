@@ -18,8 +18,8 @@ jobs:
       with:
         python-version: '3.9'
         
-    - name: Installing dependencies
-      run: >
+    - name: Install dependencies
+      run: |
         python -m pip install --upgrade pip
         pip install requests
         pip install beautifulsoup4
@@ -27,87 +27,40 @@ jobs:
     - name: Fetch blog data
       env:
         BLOG_URL: 'https://thecommit.company/blog'
-      run: |
-        python3 -c "
-        import requests
-        from bs4 import BeautifulSoup
+      run: python fetch_blog_data.py
         
-        # URL to fetch blog data
-        url = 'https://thecommit.company/blog?blogger=Prathamesh'
-
-        # Send a GET request to the URL
-        response = requests.get(url)
-
-        # Parse the HTML content using BeautifulSoup
-        soup = BeautifulSoup(response.content, 'html.parser')
-
-        # Extract the meta description
-        meta_description = soup.find('meta', attrs={'name': 'description'})
-        if meta_description:
-            meta_description = meta_description.get('content')
-        else:
-            meta_description = 'No meta description found'
-
-        # Extract the meta image
-        meta_image = soup.find('meta', attrs={'property': 'og:image'})
-        if meta_image:
-            meta_image = meta_image.get('content')
-        else:
-            meta_image = 'No meta image found'
-
-        # Extract the title
-        title = soup.find('title')
-        if title:
-            title = title.text.strip()
-        else:
-            title = 'No title found'
-        
-        # Store the blog data as a Python dictionary
-        blog_data = {
-            'meta_description': meta_description,
-            'meta_image': meta_image,
-            'title': title
-        }
-    
-        # Save the blog data to a file
-        import json
-        with open('blog_data.json', 'w') as f:
-            json.dump(blog_data, f)
-        "        
     - name: Render blog cards
       run: |
-        python3 -c "
         import json
 
         # Load the blog data from the JSON file
         with open('blog_data.json', 'r') as f:
             blog_data = json.load(f)
-    
+
         # Function to generate the markdown for a single blog card
         def generate_blog_card(blog):
             return f"""
-            <a href="{blog['url']}" target="_blank">
-            <img src="{blog['meta_image']}" alt="{blog['title']}" width="300">
-            <h3>{blog['title']}</h3>
-            <p>{blog['meta_description']}</p>
-            </a>
+                <a href="{blog['url']}" target="_blank">
+                <img src="{blog['meta_image']}" alt="{blog['title']}" width="300">
+                <h3>{blog['title']}</h3>
+                <p>{blog['meta_description']}</p>
+                </a>
             """
 
         # Generate the markdown for all blog cards
-        rendered_cards = "\n".join([generate_blog_card(blog) for blog in blog_data])
+        rendered_cards = "\n".join([generate_blog_card(blog) for blog in [blog_data]])
 
         # Wrap the rendered cards in a container
         rendered_cards = f"""
-        <div align="center">
-        {rendered_cards}
-        </div>
-        """
-    
+            <div align="center">
+            {rendered_cards}
+            </div>
+            """
+
         # Append the rendered cards to the README file
         with open('README.md', 'a') as f:
             f.write(rendered_cards)
-        "
-
+        
     - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions Bot'
