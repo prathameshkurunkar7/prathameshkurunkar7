@@ -38,6 +38,6 @@ jobs:
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add README.md
+        git add README.md blog_data.json
         git commit -m "chore: update README with new blog"
         git push
