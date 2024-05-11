@@ -5,31 +5,71 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-def fetch_blog_data(blog_url):
-    response = requests.get(blog_url)
+def check_if_existing(url):
+    # Load existing blog data from JSON file
+    try:
+        with open("blog_data.json", "r") as f:
+            existing_blog_data = json.load(f)
+    except FileNotFoundError:
+        existing_blog_data = []
+
+    if len(existing_blog_data)==0:
+        return
+
+    for blog in existing_blog_data:
+        if blog["url"] == url:
+            return True
+        
+    return False
+        
+
+def fetch_blog_data(blogs_url):
+    response = requests.get(blogs_url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    meta_description = soup.find('meta', attrs={'name': 'description'})
-    meta_description = meta_description.get('content') if meta_description else 'No meta description found'
+    blog_cards = soup.find_all("div", class_="blog-card")
 
-    meta_image = soup.find('meta', attrs={'property': 'og:image'})
-    meta_image = meta_image.get('content') if meta_image else 'No meta image found'
+    blogs = []
+    for card in blog_cards:
+        # Find the link within the card
+        link = card.find("a",class_="stretched-link")
+        if link:
+            # Fetch the linked page
+            link_url = link.get("href")
+            blog_url = "https://thecommit.company/" + link_url
 
-    title = soup.find('title')
-    title = title.text.strip() if title else 'No title found'
+            # if blog already exists and published then break
+            if check_if_existing(blog_url):
+                break
+            
+            link_response = requests.get(blog_url)
+            link_soup = BeautifulSoup(link_response.content, "html.parser")
 
-    blog_data = {
-        'meta_description': meta_description,
-        'meta_image': meta_image,
-        'title': title,
-        'url': blog_url
-    }
+            # Find the meta tags on the linked page
+            meta_description = link_soup.find('meta', attrs={'name': 'description'})
+            meta_description = meta_description.get('content') if meta_description else 'No meta description found'
 
-    return blog_data
+            meta_image = link_soup.find('meta', attrs={'property': 'og:image'})
+            meta_image = meta_image.get('content') if meta_image else 'No meta image found'
+
+            title = link_soup.find('title')
+            title = title.text.strip() if title else 'No title found'
+
+            blog_data = {
+                'meta_description': meta_description,
+                'meta_image': meta_image,
+                'title': title,
+                'url': blog_url,
+            }
+
+            blogs.append(blog_data)
+
+    return blogs
 
 if __name__ == '__main__':
-    blog_url = f"{os.environ['BLOG_URL']}?blogger=Prathamesh"
-    blog_data = fetch_blog_data(blog_url)
+    blogs_url= os.environ['BLOG_URL']
+    blogs = fetch_blog_data(blogs_url)
 
-    with open('blog_data.json', 'w') as f:
-        json.dump(blog_data, f)
+    if len(blogs) > 0:
+        with open('blog_data.json', 'w') as f:
+            json.dump(blogs, f)
