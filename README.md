@@ -22,3 +22,18 @@
   
 
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Prathamesh Kurunkar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=prathameshkurunkar7&theme=tokyo-night&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+
+<a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company" target="_blank" style="text-decoration: none !important; color: inherit !important;">
+<div style="display: flex; align-items: center; border-radius: 4px; border: 1px solid #30363d; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); overflow: hidden; max-height: 200px;">
+<div style="max-width: 33.33%;">
+<img src="https://thecommit.company/files/a-juxtaposition-of-a-bustling-multinational-corporation-office-transitioning-to-a-cozy-dynamic-star.jpeg" alt="Transitioning from MNC to Startup: My Experience @ The Commit Company" style="width: 100%; border-radius:4px">
+</div>
+<div style="padding: 16px;">
+<h2 style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">Transitioning from MNC to Startup: My Experience @ The Commit Company</h2>
+<p style="font-size: 14px; line-height: 1.5; margin-bottom: 14px;">Breaking out from comfort zone, I embarked on an exhilarating journey from MNC to startup at The Commit Company.</p>
+</div>
+</div>
+</a>
+</div>
