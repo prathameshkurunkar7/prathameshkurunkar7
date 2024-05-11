@@ -10,7 +10,7 @@ def render_blog_data():
     # Function to generate the markdown for a single blog card
     # Formatting of the function below is avoided to avoid extra spacing being generated in markdown
     def generate_blog_card(blog):
-        return f"""\n
+        return f"""
 <table>
   <tr>
     <th align="left" colspan="2"><a href="{blog['url']}">{blog['title']}</a></th>
@@ -20,17 +20,25 @@ def render_blog_data():
     <td width="80%">{blog['meta_description']}</td>
   </tr>
 </table>
-\n"""
+"""
 
 
     # Generate the markdown for all blog cards
-    rendered_cards = ''.join([generate_blog_card(blog) for blog in blog_data])
+    rendered_cards = '\n'.join([generate_blog_card(blog) for blog in blog_data])
+
+    # Wrap the rendered cards in a collapsible section
+    rendered_section = f"""
+    <details open>
+    <summary>My Blogs</summary>
+    {rendered_cards}
+    </details>
+    """
 
 
     # Append the rendered cards to the README file
     with open('README.md', 'a') as f:
         f.write('\n\n')
-        f.write(rendered_cards)
+        f.write(rendered_section)
 
 if __name__ == '__main__':
     render_blog_data()
