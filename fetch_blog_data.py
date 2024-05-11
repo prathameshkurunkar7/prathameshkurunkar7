@@ -5,8 +5,26 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-def fetch_blog_data(blog_url):
-    response = requests.get(blog_url)
+def check_if_existing(url):
+    # Load existing blog data from JSON file
+    try:
+        with open("blog_data.json", "r") as f:
+            existing_blog_data = json.load(f)
+    except FileNotFoundError:
+        existing_blog_data = []
+
+    if len(existing_blog_data)==0:
+        return
+
+    for blog in existing_blog_data:
+        if blog["url"] == url:
+            return True
+        
+    return False
+        
+
+def fetch_blog_data(blogs_url):
+    response = requests.get(blogs_url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
     meta_description = soup.find('meta', attrs={'name': 'description'})
