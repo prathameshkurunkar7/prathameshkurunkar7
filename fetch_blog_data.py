@@ -60,6 +60,7 @@ def fetch_blog_data(blogs_url):
                 'meta_image': meta_image,
                 'title': title,
                 'url': blog_url,
+                'published': False
             }
 
             blogs.append(blog_data)

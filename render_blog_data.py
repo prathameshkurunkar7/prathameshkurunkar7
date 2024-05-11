@@ -2,15 +2,10 @@
 
 import json
 
-def render_blog_data():
-    # Load the blog data from the JSON file
-    with open('blog_data.json', 'r') as f:
-        blog_data = json.load(f)
-
-    # Function to generate the markdown for a single blog card
-    # Formatting of the function below is avoided to avoid extra spacing being generated in markdown
-    def generate_blog_card(blog):
-        return f"""
+# Function to generate the markdown for a single blog card
+# Formatting of the function below is avoided to avoid extra spacing being generated in markdown
+def generate_blog_card(blog):
+    return f"""
 <table>
   <tr>
     <th align="left" colspan="2"><a href="{blog['url']}">{blog['title']}</a></th>
@@ -22,23 +17,32 @@ def render_blog_data():
 </table>
 """
 
+def render_blog_data():
+    # Load the blog data from the JSON file
+    with open('blog_data.json', 'r') as f:
+        blog_data = json.load(f)
 
-    # Generate the markdown for all blog cards
-    rendered_cards = '\n'.join([generate_blog_card(blog) for blog in blog_data])
+    # Filter out unpublished blogs
+    unpublished_blogs = [blog for blog in blog_data if not blog["published"]]
 
-    # Wrap the rendered cards in a collapsible section
-    # rendered_section = f"""
-    # <details open>
-    # <summary>My Blogs</summary>
-    # {rendered_cards}
-    # </details>
-    # """
+    # Check if there are any unpublished blog cards
+    if len(unpublished_blogs)==0:
+        return
 
+    # Generate the markdown for unpublished blog cards
+    rendered_cards = '\n'.join([generate_blog_card(blog) for blog in unpublished_blogs])
 
     # Append the rendered cards to the README file
     with open('README.md', 'a') as f:
-        f.write('\n\n')
         f.write(rendered_cards)
+
+    # Update the published key for the newly rendered blog cards
+    for blog in blog_data:
+        blog["published"] = True
+
+    # Save the updated blog data to the JSON file
+    with open('blog_data.json', 'w') as f:
+        json.dump(blog_data, f, indent=2)
 
 if __name__ == '__main__':
     render_blog_data()
