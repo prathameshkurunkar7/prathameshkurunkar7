@@ -27,18 +27,18 @@ def render_blog_data():
     rendered_cards = '\n'.join([generate_blog_card(blog) for blog in blog_data])
 
     # Wrap the rendered cards in a collapsible section
-    rendered_section = f"""
-    <details open>
-    <summary>My Blogs</summary>
-    {rendered_cards}
-    </details>
-    """
+    # rendered_section = f"""
+    # <details open>
+    # <summary>My Blogs</summary>
+    # {rendered_cards}
+    # </details>
+    # """
 
 
     # Append the rendered cards to the README file
     with open('README.md', 'a') as f:
         f.write('\n\n')
-        f.write(rendered_section)
+        f.write(rendered_cards)
 
 if __name__ == '__main__':
     render_blog_data()

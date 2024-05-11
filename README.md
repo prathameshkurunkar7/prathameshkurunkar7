@@ -23,11 +23,7 @@
 
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Prathamesh Kurunkar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=prathameshkurunkar7&theme=tokyo-night&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
     
-
-
-    <details open>
-    <summary>My Blogs</summary>
-    
+ 
 <table>
   <tr>
     <th align="left" colspan="2"><a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company">Transitioning from MNC to Startup: My Experience @ The Commit Company</a></th>
@@ -37,6 +33,4 @@
     <td width="80%">Breaking out from comfort zone, I embarked on an exhilarating journey from MNC to startup at The Commit Company.</td>
   </tr>
 </table>
-
-    </details>
     
