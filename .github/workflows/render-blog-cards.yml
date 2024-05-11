@@ -28,7 +28,7 @@ jobs:
         
     - name: Fetch blog data
       env:
-        BLOG_URL: 'https://thecommit.company/blog'
+        BLOG_URL: 'https://thecommit.company/blog?blogger=Prathamesh'
       run: python fetch_blog_data.py
         
     - name: Render blog cards
