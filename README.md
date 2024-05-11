@@ -37,3 +37,21 @@
   </tr>
 </table>
 
+
+
+
+    <details open>
+    <summary>My Blogs</summary>
+    
+<table>
+  <tr>
+    <th align="left" colspan="2"><a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company">Transitioning from MNC to Startup: My Experience @ The Commit Company</a></th>
+  </tr>
+  <tr>
+    <td width="20%"><a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company"><img src="https://thecommit.company/files/a-juxtaposition-of-a-bustling-multinational-corporation-office-transitioning-to-a-cozy-dynamic-star.jpeg" alt="Transitioning from MNC to Startup: My Experience @ The Commit Company" width="100%"></a></td>
+    <td width="80%">Breaking out from comfort zone, I embarked on an exhilarating journey from MNC to startup at The Commit Company.</td>
+  </tr>
+</table>
+
+    </details>
+    
