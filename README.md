@@ -14,7 +14,7 @@
 # 📊 GitHub Stats:
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="prathameshkurunkar7's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=prathameshkurunkar7&show_icons=true&include_all_commits=true&count_private=true&theme=nightowl&hide_border=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="prathameshkurunkar7's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=prathameshkurunkar7&show_icons=true&include_all_commits=true&count_private=true&theme=nightowl&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height="192px"/></a>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=prathameshkurunkar7&theme=nightowl&hide_border=true" height="192px"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathameshkurunkar7&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&layout=compact&size_weight=0.5&count_weight=0.5" height="192px" />
 </p>
