@@ -2,7 +2,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Developer+%40The+Commit+Company;SIH+2022+Winner;Building+Raven" alt="Typing SVG" /></a>
 
 ## 💫 More About Me:
-🔭 I’m currently working on Raven<br>🌱 I’m currently learning Frappe, Mobile App Development using React Native<br>💬 Ask me about Raven, Typescript, Python, React.js
+🔭 I’m currently working on Raven, Emotive Software and Personal Projects<br>🌱 I’m currently learning Frappe, Mobile App Development using React Native and Go<br>💬 Ask me about Raven, Typescript, Python, React.js
 
 
 ## 🌏 Connect With Me:
@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="prathameshkurunkar7's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=prathameshkurunkar7&show_icons=true&include_all_commits=true&count_private=true&theme=nightowl&hide_border=true&show=prs_merged,prs_merged_percentage" height="192px"/></a>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=prathameshkurunkar7&theme=nightowl&hide_border=true" height="192px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathameshkurunkar7&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&layout=compact&size_weight=0.5&count_weight=0.5" height="192px" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathameshkurunkar7&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&layout=compact&size_weight=0.4&count_weight=0.6" height="192px" />
 </p>
 <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
   
