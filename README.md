@@ -2,7 +2,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Developer+%40The+Commit+Company;SIH+2022+Winner;Building+Raven" alt="Typing SVG" /></a>
 
 ## 💫 More About Me:
-🔭 I’m currently working on Raven, Emotive Software and Personal Projects<br>🌱 I’m currently learning Frappe, Mobile App Development using React Native and Go<br>💬 Ask me about Raven, Typescript, Python, React.js
+🔭 I’m currently working on Raven, Emotive Software and Personal Projects<br>🌱 I’m currently learning Frappe Framework, Mobile App Development using React Native, and Go for self-learning<br>💬 Ask me about Raven, Typescript, Python, React.js
 
 
 ## 🌏 Connect With Me:
