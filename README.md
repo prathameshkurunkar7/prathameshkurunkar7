@@ -14,14 +14,15 @@
 # 📊 GitHub Stats:
 
 <p align="center">
-  <a href="https://github.com/prathameshkurunkar7/github-readme-stats"><img alt="prathameshkurunkar7's Github Stats" src="https://github-readme-stats-prathameshkurunkar7.vercel.app/api/?username=prathameshkurunkar7&show_icons=true&include_all_commits=true&count_private=true&role=owner,collaborator&theme=nightowl&hide_border=true&show=prs_merged,prs_merged_percentage" height="192px"/></a>
+  <a href="https://github.com/prathameshkurunkar7/github-readme-stats"><img alt="prathameshkurunkar7's Github Stats" src="https://github-readme-stats-prathameshkurunkar7.vercel.app/api/?username=prathameshkurunkar7&show_icons=true&include_all_commits=true&count_private=true&role=owner,collaborator,member&theme=nightowl&hide_border=true&show=prs_merged,prs_merged_percentage" height="192px"/></a>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=prathameshkurunkar7&theme=nightowl&hide_border=true" height="192px"/>
-<img src="https://github-readme-stats-prathameshkurunkar7.vercel.app/api/top-langs/?username=prathameshkurunkar7&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&role=owner,collaborator&layout=compact&size_weight=0.4&count_weight=0.6" height="192px" />
+<img src="https://github-readme-stats-prathameshkurunkar7.vercel.app/api/top-langs/?username=prathameshkurunkar7&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&role=owner,collaborator,member&layout=compact&size_weight=0.4&count_weight=0.6" height="192px" />
 </p>
 <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
   
 
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Prathamesh Kurunkar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=prathameshkurunkar7&theme=tokyo-night&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+
 
 # 📝 My Blogs:
     
