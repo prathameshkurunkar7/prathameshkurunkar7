@@ -1,5 +1,5 @@
 ## Hello World, I'm
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Developer+%40The+Commit+Company;SIH+2022+Winner;Building+Raven,Raven+Cloud+Emotive+Software" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Engineer+%40Frappe;SIH+2022+Winner;Building+Raven,Raven+Cloud+Emotive+Software" alt="Typing SVG" /></a>
 
 ## 💫 More About Me:
 🔭 I’m currently working on Raven, Raven Cloud, Emotive Software and Personal Projects
