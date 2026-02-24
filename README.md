@@ -1,8 +1,8 @@
 ## Hello World, I'm
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Engineer+%40Frappe;SIH+2022+Winner;Building+Raven,Raven+Cloud+Emotive+Software" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Engineer+%40Frappe;SIH+2022+Winner;Building+Raven,Raven+Cloud+Emotive+Software" alt="Short Intro Abut Me" /></a>
 
 ## 💫 More About Me:
-🔭 I’m currently working on Raven, Raven Cloud, Emotive Software and Personal Projects
+🔭 I’m currently working on Raven, Raven Cloud(Notifications), Frappe Framework, Emotive Software and Personal Projects
 
 ## 🌏 Connect With Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prathameshkurunkar7) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/prathameshkurunkar74) 
