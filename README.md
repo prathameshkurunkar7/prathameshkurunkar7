@@ -1,8 +1,8 @@
 ## Hello World, I'm
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Engineer+%40Frappe;SIH+2022+Winner;Building+Raven,Raven+Cloud+Emotive+Software" alt="Short Intro Abut Me" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&pause=1000&random=false&width=435&lines=Software+Engineer+%40Frappe;" alt="Short Intro Abut Me" /></a>
 
 ## 💫 More About Me:
-🔭 I’m currently working on Raven, Raven Cloud(Notifications), Frappe Framework, Emotive Software and Personal Projects
+- I’m working on Raven, Raven Cloud(Notifications), Frappe Framework, and Personal Projects(not really rn, want to).
 
 ## 🌏 Connect With Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prathameshkurunkar7) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/prathameshkurunkar74) 
@@ -10,7 +10,11 @@
 ## 💻 Daily Tech Stack:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Frappe](https://img.shields.io/badge/Frappe-0089FF.svg?style=for-the-badge&logo=Frappe&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Radix UI](https://img.shields.io/badge/Radix%20UI-161618.svg?style=for-the-badge&logo=Radix-UI&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![ShadCN](https://img.shields.io/badge/shadcn/ui-000000.svg?style=for-the-badge&logo=shadcn/ui&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%7A0C00.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Frappe](https://img.shields.io/badge/Frappe-0089FF.svg?style=for-the-badge&logo=Frappe&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Radix UI](https://img.shields.io/badge/Radix%20UI-161618.svg?style=for-the-badge&logo=Radix-UI&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![ShadCN](https://img.shields.io/badge/shadcn/ui-000000.svg?style=for-the-badge&logo=shadcn/ui&logoColor=white) ![Redis](https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white)
+
+Trying to learn - 
+
+![https://img.shields.io/badge/vue-%2320232a.svg?style=for-the-badge&logo=vue&logoColor=%2361DAFB](https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 
 ## 📊 GitHub Stats:
 
@@ -25,14 +29,12 @@
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Prathamesh Kurunkar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=prathameshkurunkar7&theme=tokyo-night&line=F85D7F&point=FFFFFF&hide_border=true&cache_seconds=21600" /></a>
 
 
-## 📝 My Blogs:
-    
-<table>
-  <tr>
-    <th align="left" colspan="2"><a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company">Transitioning from MNC to Startup: My Experience @ The Commit Company</a></th>
-  </tr>
-  <tr>
-    <td width="20%"><a href="https://thecommit.company//blog/culture/transitioning-from-mnc-to-startup-my-experience-at-the-commit-company"><img src="https://thecommit.company/files/a-juxtaposition-of-a-bustling-multinational-corporation-office-transitioning-to-a-cozy-dynamic-star.jpeg" alt="Transitioning from MNC to Startup: My Experience @ The Commit Company" width="100%"></a></td>
-    <td width="80%">Breaking out from comfort zone, I embarked on an exhilarating journey from MNC to startup at The Commit Company.</td>
-  </tr>
-</table>
+## My Talks:
+
+<a href="https://youtu.be/WIzLr0TfAfg?si=1z69U0K2G8N7_3IG">
+  <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/a4539972-fd4f-48f9-b2ed-0fd9747aa8d3" />
+</a>
+<a href="https://youtu.be/g3VkucbZgkw?si=hFE2rYhEZ2kNMnGj">
+  <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/8464ad05-99dc-419b-a3a5-c5208f1a3f65" />
+</a>
+
